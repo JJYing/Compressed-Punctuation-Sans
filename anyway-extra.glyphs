@@ -1,6 +1,9 @@
 {
 .appVersion = "3091";
 .formatVersion = 3;
+DisplayStrings = (
+"！”！」！』"
+);
 axes = (
 {
 name = Weight;
@@ -706,7 +709,7 @@ unicode = 65292;
 glyphname = exclam.full;
 kernLeft = fullExclam;
 kernRight = fullExclam;
-lastChange = "2021-10-27 18:24:59 +0000";
+lastChange = "2021-10-27 18:47:36 +0000";
 layers = (
 {
 layerId = m01;
@@ -1444,7 +1447,7 @@ unicode = 8220;
 glyphname = quotedblright;
 kernLeft = roundRight;
 kernRight = roundRight;
-lastChange = "2021-10-27 18:10:51 +0000";
+lastChange = "2021-10-27 18:50:14 +0000";
 layers = (
 {
 layerId = m002;
@@ -1551,7 +1554,9 @@ unicode = 8217;
 },
 {
 glyphname = asciitilde;
-lastChange = "2021-10-27 17:59:33 +0000";
+kernLeft = asciitilde;
+kernRight = asciitilde;
+lastChange = "2021-10-27 18:45:24 +0000";
 layers = (
 {
 layerId = m01;
@@ -1943,20 +1948,6 @@ width = 1000;
 );
 },
 {
-glyphname = newGlyph;
-lastChange = "2021-10-27 17:35:07 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-},
-{
-layerId = m002;
-width = 600;
-}
-);
-},
-{
 glyphname = threeasciitilde;
 kernLeft = asciitilde;
 kernRight = asciitilde;
@@ -2286,13 +2277,6 @@ m01 = {
 "@MMK_R_squareLeft" = -300;
 "@MMK_R_squareRight" = -400;
 };
-"@MMK_L_cornerbracketright" = {
-cornerbracketright = -500;
-"@MMK_R_roundRight" = -300;
-};
-"@MMK_L_dblanglebracketright" = {
-dblanglebracketright = -400;
-};
 "@MMK_L_fullExclam" = {
 "@MMK_R_bookLeft" = -1000;
 "@MMK_R_bookRight" = -900;
@@ -2337,7 +2321,6 @@ semicolon.full = -400;
 };
 colon.full = {
 "@MMK_R_bookLeft" = -900;
-"@MMK_R_cornerbracketleft" = -900;
 "@MMK_R_fullExclam" = -700;
 "@MMK_R_roundLeft" = -800;
 "@MMK_R_roundRight" = -800;
@@ -2352,9 +2335,7 @@ parenright.full = -800;
 "@MMK_R_roundRight" = -800;
 "@MMK_R_squareLeft" = -900;
 "@MMK_R_squareRight" = -800;
-dblanglebracketleft = -900;
 parenleft.full = -900;
-whitecornerbracketleft = -900;
 };
 comma.full = {
 "@MMK_R_bookLeft" = -900;
@@ -2363,41 +2344,8 @@ comma.full = {
 "@MMK_R_roundRight" = -900;
 "@MMK_R_squareLeft" = -960;
 "@MMK_R_squareRight" = -800;
-cornerbracketright = -600;
-dblanglebracketright = -500;
 parenleft.full = -1000;
 parenright.full = -400;
-};
-cornerbracketleft = {
-"@MMK_R_bookLeft" = -300;
-"@MMK_R_cornerbracketleft" = -500;
-};
-cornerbracketright = {
-"comma-han" = -200;
-comma.full = -300;
-cornerbracketleft = -650;
-"@MMK_R_fullExclam" = -200;
-parenleft.full = -600;
-parenright.full = -200;
-"period-han" = -200;
-question.full = -300;
-semicolon.full = -250;
-"@MMK_R_bookLeft" = -500;
-"@MMK_R_roundRight" = -200;
-};
-dblanglebracketleft = {
-"@MMK_R_dblanglebracketleft" = -400;
-};
-dblanglebracketright = {
-"comma-han" = -200;
-comma.full = -300;
-cornerbracketleft = -600;
-dblanglebracketleft = -550;
-parenleft.full = -500;
-parenright.full = -150;
-"period-han" = -300;
-"@MMK_R_roundLeft" = -300;
-"@MMK_R_roundRight" = -200;
 };
 ellipsis = {
 ellipsis = -142;
@@ -2436,9 +2384,6 @@ parenright.full = {
 colon.full = -600;
 "comma-han" = -200;
 comma.full = -400;
-cornerbracketleft = -600;
-cornerbracketright = -300;
-dblanglebracketright = -300;
 parenleft.full = -900;
 parenright.full = -300;
 "period-han" = -400;
@@ -2452,7 +2397,6 @@ semicolon.full = -400;
 "@MMK_R_roundRight" = -800;
 "@MMK_R_squareLeft" = -900;
 "@MMK_R_squareRight" = -600;
-dblanglebracketleft = -900;
 parenleft.full = -900;
 parenright.full = -400;
 };
@@ -2464,8 +2408,6 @@ question.full = {
 "@MMK_R_roundRight" = -600;
 "@MMK_R_squareLeft" = -900;
 "@MMK_R_squareRight" = -600;
-cornerbracketright = -600;
-dblanglebracketright = -500;
 parenleft.full = -900;
 parenright.full = -550;
 question.full = -500;
@@ -2491,8 +2433,6 @@ semicolon.full = {
 "@MMK_R_roundLeft" = -800;
 "@MMK_R_roundRight" = -800;
 "@MMK_R_squareRight" = -800;
-cornerbracketleft = -900;
-cornerbracketright = -600;
 parenleft.full = -900;
 parenright.full = -400;
 };
@@ -2513,29 +2453,19 @@ parenleft.full = -300;
 "@MMK_R_squareRight" = -400;
 comma.full = -300;
 };
-"@MMK_L_cornerbracketright" = {
-cornerbracketright = -500;
-"@MMK_R_roughtRight" = -300;
-};
-"@MMK_L_dblanglebracketright" = {
-dblanglebracketright = -400;
-};
 "@MMK_L_fullExclam" = {
 "@MMK_R_bookLeft" = -1000;
 "@MMK_R_bookLeft" = -1000;
 "@MMK_R_bookRight" = -1000;
-"@MMK_R_cornerbracketright" = -900;
 "@MMK_R_fullExclam" = -900;
 "@MMK_R_roundLeft" = -1000;
-"@MMK_R_roundRight" = -920;
+"@MMK_R_roundRight" = -700;
 "@MMK_R_squareLeft" = -1200;
 "@MMK_R_squareRight" = -900;
-asciitilde = -800;
+"@MMK_R_asciitilde" = -800;
 colon.full = -800;
 "comma-han" = -500;
 comma.full = -800;
-cornerbracketright = -900;
-dblanglebracketright = -900;
 ellipsis = -900;
 parenleft.full = -1400;
 parenright.full = -800;
@@ -2594,36 +2524,8 @@ comma.full = {
 "@MMK_R_roundRight" = -900;
 "@MMK_R_squareLeft" = -950;
 "@MMK_R_squareRight" = -800;
-cornerbracketright = -600;
 parenleft.full = -990;
 parenright.full = -400;
-};
-cornerbracketright = {
-"@MMK_R_bookLeft" = -550;
-"@MMK_R_bookLeft" = -550;
-"comma-han" = -200;
-comma.full = -300;
-"@MMK_R_squareLeft" = -650;
-"@MMK_R_fullExclam" = -200;
-parenleft.full = -600;
-parenright.full = -200;
-"period-han" = -200;
-question.full = -300;
-semicolon.full = -250;
-"@MMK_R_roundRight" = -200;
-};
-dblanglebracketleft = {
-"@MMK_R_dblanglebracketleft" = -400;
-};
-dblanglebracketright = {
-"comma-han" = -200;
-"@MMK_R_squareLeft" = -600;
-"@MMK_R_bookLeft" = -550;
-parenleft.full = -500;
-parenright.full = -150;
-"period-han" = -300;
-"@MMK_R_roundLeft" = -300;
-"@MMK_R_roundRight" = -200;
 };
 ellipsis = {
 ellipsis = -185;
@@ -2632,18 +2534,15 @@ ellipsis = -185;
 "@MMK_R_bookLeft" = -1000;
 "@MMK_R_bookLeft" = -1000;
 "@MMK_R_bookRight" = -1000;
-"@MMK_R_cornerbracketright" = -900;
 "@MMK_R_fullExclam" = -900;
 "@MMK_R_roundLeft" = -1000;
-"@MMK_R_roundRight" = -920;
+"@MMK_R_roundRight" = -700;
 "@MMK_R_squareLeft" = -1200;
 "@MMK_R_squareRight" = -900;
-asciitilde = -800;
+"@MMK_R_asciitilde" = -800;
 colon.full = -800;
 "comma-han" = -500;
 comma.full = -800;
-cornerbracketright = -900;
-dblanglebracketright = -900;
 ellipsis = -900;
 parenleft.full = -1400;
 parenright.full = -800;
@@ -2668,8 +2567,6 @@ parenright.full = {
 colon.full = -600;
 "comma-han" = -200;
 comma.full = -400;
-cornerbracketright = -300;
-dblanglebracketright = -300;
 parenleft.full = -900;
 parenright.full = -300;
 "period-han" = -400;
@@ -2697,8 +2594,6 @@ question.full = {
 "@MMK_R_roundRight" = -600;
 "@MMK_R_squareLeft" = -900;
 "@MMK_R_squareRight" = -600;
-cornerbracketright = -600;
-dblanglebracketright = -500;
 parenleft.full = -900;
 parenright.full = -500;
 question.full = -500;
@@ -2726,7 +2621,6 @@ semicolon.full = {
 "@MMK_R_roundRight" = -800;
 "@MMK_R_squareLeft" = -900;
 "@MMK_R_squareRight" = -800;
-cornerbracketright = -600;
 parenleft.full = -900;
 parenright.full = -400;
 };
