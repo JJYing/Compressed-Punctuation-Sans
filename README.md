@@ -9,12 +9,13 @@
 - 没有 hint
 - 纯自用，所以标点符号非常有限，仅包含 `、` `。` `…` `：` `！` `？` `；` `—` `〈` `〉` `「` `」` `《` `》` `『` `』` `（` `）` `~` `“` `”` `‘` `’`
 - 夹带了一点连字私货，比如「~~~」和「！！！」
-- 有另外一个版本在[这里](https://github.com/houkanshan/mojikumi)，做得比我完善但是字符设计上更有风格一些但没有粗体
 
 
-# 使用 & 修改
-- 把 WOFF2 文件放在 `font-family` 的第一位即可
-- 附带 Glyphs 源文件，采用 [OFL 授权](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL)，可自行修改
+# FAQ
+- **什么是标点符号挤压？** 请看[这个视频](http://r.anw.red/nEaKzC)
+- **如何使用这个字体？** 定义一个 web font，然后在 `font-family` 里放到正文字体前即可，因为他没有中西文字符，所以标点以外的字符会 fallback 到你原来的字体设置。什么？你问其他平台怎么用？我也不知道
+- **采用什么授权，可以自己改或者商用吗？** 采用 [OFL 授权](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL)，可自行修改 Glyphs 源文件或者商用
+- **你这个做得不好，有没有其他版本？** 在[这里](https://github.com/houkanshan/mojikumi)，做得比我完善、字符设计上更有风格一些，但没有粗体。
 
 
  
