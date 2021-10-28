@@ -11,9 +11,10 @@
 - 夹带了一点连字私货，比如「~~~」和「！！！」
 - 有另外一个版本在[这里](https://github.com/houkanshan/mojikumi)，做得比我完善但是字符设计上更有风格一些但没有粗体
 
+
 # 使用 & 修改
 - 把 WOFF2 文件放在 `font-family` 的第一位即可
-- 附带 Glyphs 源文件，可任意修改
+- 附带 Glyphs 源文件，采用 [OFL 授权](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL)，可自行修改
 
 
  
