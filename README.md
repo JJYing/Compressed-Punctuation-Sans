@@ -15,7 +15,4 @@
 - **什么是标点符号挤压？** 请看[这个视频](http://r.anw.red/nEaKzC)
 - **如何使用这个字体？** 定义一个 web font，然后在 `font-family` 里放到正文字体前即可，因为他没有中西文字符，所以标点以外的字符会 fallback 到你原来的字体设置。什么？你问其他平台怎么用？我也不知道
 - **采用什么授权，可以自己改或者商用吗？** 采用 [OFL 授权](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL)，可自行修改 Glyphs 源文件或者商用
-- **你这个做得不好，有没有其他版本？** 在[这里](https://github.com/houkanshan/mojikumi)，做得比我完善、字符设计上更有风格一些，但没有粗体。
-
-
- 
+- **你这个做得不够好，有没有其他版本？** 在[这里](https://github.com/houkanshan/mojikumi)，做得比我完善、字符设计上更有风格一些，但没有粗体，以及[这个](https://github.com/Buernia/Zhudou-Sans)，基于 Noto Sans，可变字体格式
