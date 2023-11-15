@@ -42,7 +42,7 @@ value = -140;
 },
 {
 name = typoLineGap;
-value = 400;
+value = 0;
 },
 {
 name = winAscent;
@@ -75,6 +75,10 @@ value = -150;
 {
 name = underlineThickness;
 value = 58;
+},
+{
+name = typoLineGap;
+value = 0;
 }
 );
 id = m01;
@@ -111,7 +115,7 @@ value = -140;
 },
 {
 name = typoLineGap;
-value = 400;
+value = 0;
 },
 {
 name = winAscent;
@@ -144,6 +148,10 @@ value = -150;
 {
 name = underlineThickness;
 value = 80;
+},
+{
+name = typoLineGap;
+value = 0;
 }
 );
 iconName = Bold;
